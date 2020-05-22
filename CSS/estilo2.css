@@ -12,11 +12,13 @@
    margin-top: 50px;
     
 }
+
 @media(min-width:1024px){
     #pie{
-    height: 70px;
+    height: 80px;
     top: 10px;
-    height: 120px;
+    height: 150px;
+    z-index: 100;
   }
   }
 
@@ -76,6 +78,13 @@
     margin-left: 25px;
     margin-right:20px;
 }
+.tetnt{
+    font-size: 15px;
+    position: relative;
+    margin-left: 25px;
+    margin-right:20px;  
+}
+
 .cont3 h2{
     font-size: 20px;  
 }
