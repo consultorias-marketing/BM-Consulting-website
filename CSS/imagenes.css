@@ -1,0 +1,28 @@
+
+#banner img{
+    width: 100%;
+}
+
+.contimagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 15mm;
+    position: relative;
+    text-align: center;
+}
+
+.contimagenes article{
+    padding: 40px;
+}
+
+#foto img{
+    position: relative;
+    width: 70%;
+}
+@media(max-width:480px){
+#foto img{
+    position: relative;
+    width: 100%;
+}
+}

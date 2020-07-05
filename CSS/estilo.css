@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Opens+Sans);
 @import url(menu.css);
-@import url(estilo2.css);
+@import url(imagenes.css);
+@import url(pie.css);
 
 
 
@@ -32,10 +33,42 @@ float: left;
   margin-top: 25px;
   margin-left: 25px;
   margin-right:20px;
-
+  text-align: justify;
 }
 header .cont{
   display: table;
+}
+
+section{
+  height: 100%;
+}
+
+.cont2 a {
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+} 
+ 
+
+.cont3{
+  color: white;
+  z-index: 100;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 25px;
+  margin-right:20px;
+}
+
+.tetnt{
+  font-size: 15px;
+  position: relative;
+  padding: 20mm; 
+  text-align: justify;
+}
+
+.cont3 h2{
+  font-size: 20px;
+  text-align: center;  
 }
 
 @media(min-width:1024px){
@@ -57,6 +90,3 @@ header .cont{
 }
 }
 
-section{
-  height: 100%;
-}
