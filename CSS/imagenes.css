@@ -3,17 +3,60 @@
     width: 100%;
 }
 
+
 .contimagenes{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     top: 15mm;
+    padding: 40px;
     position: relative;
     text-align: center;
 }
 
 .contimagenes article{
     padding: 40px;
+}
+
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 500%;
+    animation: cambio 25s infinite alternate ease-out;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    40%{margin-left: -100%;}
+    
+    45%{margin-left: -200%;}
+    60%{margin-left: -200%;}
+    
+    65%{margin-left: -300%;}
+    80%{margin-left: -300%;}
+    
+    85%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+
+.slider{
+width: 50%;
+height: 500px;
+overflow: hidden;
+}
+
+.slider img{
+    height: 500px;
+    width: 100%;
+}
+
+.slider li{
+    width: 100%;
+list-style: none;
 }
 
 #foto img{

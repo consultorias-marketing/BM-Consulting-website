@@ -3,4 +3,5 @@
     t2.textContent ='Siempre he dicho que mi mayor habilidad la cual me ha destacado en toda mi vida… es la curiosidad, la verdad no sé qué sería de mí en la actualidad si no tuviera esta grandiosa habilidad. A mi corta edad he tenido la oportunidad de asesorar, dar acompañamiento y ayudar a empresas de todo tamaño en la ejecución de sus planes y en la identificación de oportunidades, debilidades y amenazas, es grato para mi obtener tales reconocimientos por parte de estas empresas, pero es aún más grato el haber aprendido de estas empresas, sus procesos y formas de gerenciar y dirigir durante brindaba mis servicios a estas empresas.';
     t3.textContent ='Por tal razón deseo compartir el conocimiento obtenido por mi experiencia de más de 4 años asesorando empresas y la formación en temas administrativos que poseo. Espero ser de útil ayuda para ustedes y que juntos compartamos nuestros conocimientos y experiencias sin esperar nada a cambio ya que... el conocimiento no sirve de nada si no se comparte.';
     
-}())                            
+}())     
+                     
